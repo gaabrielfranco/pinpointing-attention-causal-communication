@@ -53,7 +53,7 @@ This will create:
 - A dictionary with traced information (e.g., singular values used) in the `tracing_results/` folder.
 Both are needed for the paper's results.
 
-**Note for Gemma-2B**: Due to memory limits, we used the `-b` option to process data in batches. You may need to adjust this batch size based on your available memory.
+**Note for Gemma-2B**: Due to memory limits, we used the `-b` option to process data in batches. You may need to adjust the batch size inside the `tracing.py` file based on your available memory.
 
 More details about `tracing.py` are in the "Extra Documentation" section.
 
