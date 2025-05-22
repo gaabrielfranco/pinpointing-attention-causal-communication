@@ -14,7 +14,7 @@ Follow these steps to reproduce the results from the paper.
 
 ## Step 0: Download Cached Data (Optional)
 
-We provide files with cached data to speed up the reproduction process. Downloading this is recommended if you don't want to recompute everything, which can be time-consuming.
+We provide files with cached data to speed up the reproduction process. Downloading these files and extracting them in the main folder is recommended if you don't want to recompute everything, which can be time-consuming.
 
 The available files are:
 - Cached SVD of $\Omega$ for Pythia-160M (used in Step 1): [Link](https://figshare.com/s/65ca64a0cce99490692b)
@@ -149,7 +149,7 @@ python tracing.py -m <model_name> -t <task> -n <num_prompts> [options]
     * **Description**: Use this flag for lazy evaluation of $\Omega$ matrix computation. This is helpful if the SVD of $\Omega$ is not already cached. (No value needed)
     * **Action**: `store_true`
 * `-b, --batch`
-    * **Description**: Batch size for processing. Used for Gemma-2B due to memory constraints. Adjust as needed.
+    * **Description**: Batch ID for processing. Batch size is defined in the code depending on the task. Used for Gemma-2B due to memory constraints. Adjust as needed.
     * **Type**: `int`
     * **Default**: None
 * `-tt, --trace_w_tokens`
