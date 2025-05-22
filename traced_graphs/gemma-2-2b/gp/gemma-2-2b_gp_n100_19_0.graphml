@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="(0, 'Embedding', 'end', 'end')"/>
+<node id="('Correct - Incorrect pronoum', 'end')"/>
+<node id="(21, 4, 'end', 'is')"/>
+<node id="(17, 'MLP', 'end', 'end')"/>
+<node id="(18, 'MLP', 'end', 'end')"/>
+<node id="(19, 'MLP', 'end', 'end')"/>
+<node id="(0, 'Embedding', 'is', 'is')"/>
+<node id="(15, 'MLP', 'is', 'is')"/>
+<node id="(16, 'MLP', 'is', 'is')"/>
+<node id="(22, 'MLP', 'end', 'end')"/>
+<edge source="(0, 'Embedding', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">2.150897264480591</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(21, 4, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">1.3928053379058838</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(17, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">3.99647855758667</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(18, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">2.2641897201538086</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(19, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">9.377046585083008</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">12.416852951049805</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(15, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">5.553586006164551</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(16, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">4.428211688995361</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(22, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">1.9151535034179688</data>
+  <data key="d1">d</data>
+</edge>
+</graph></graphml>

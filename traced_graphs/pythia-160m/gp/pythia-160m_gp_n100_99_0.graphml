@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="(5, 'MLP', 'end', 'end')"/>
+<node id="('Correct - Incorrect pronoum', 'end')"/>
+<node id="(8, 'MLP', 'end', 'end')"/>
+<node id="(9, 3, 'end', 'is')"/>
+<node id="(7, 'MLP', 'end', 'end')"/>
+<node id="(2, 'MLP', 'is', 'is')"/>
+<node id="(3, 2, 'is', 'name')"/>
+<node id="(1, 'MLP', 'is', 'is')"/>
+<node id="(1, 'AH bias', 'is', 'is')"/>
+<node id="(2, 'AH bias', 'is', 'is')"/>
+<node id="(0, 'MLP', 'name', 'name')"/>
+<node id="(0, 'AH bias', 'name', 'name')"/>
+<node id="(1, 'MLP', 'name', 'name')"/>
+<node id="(5, 8, 'is', 'name')"/>
+<node id="(0, 7, 'is', 'is')"/>
+<node id="(0, 'MLP', 'is', 'is')"/>
+<node id="(1, 2, 'is', 'name')"/>
+<node id="(0, 'AH bias', 'is', 'is')"/>
+<node id="(8, 'MLP', 'is', 'is')"/>
+<node id="(11, 9, 'end', 'end')"/>
+<node id="(6, 'MLP', 'end', 'end')"/>
+<node id="(9, 'MLP', 'end', 'end')"/>
+<node id="(10, 'MLP', 'end', 'end')"/>
+<node id="(10, 'AH bias', 'end', 'end')"/>
+<edge source="(5, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.5309258699417114</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.563857913017273</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">32.51430892944336</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">54.29589080810547</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(9, 3, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">2.525580406188965</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">13.399961471557617</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">88.66542053222656</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'MLP', 'is', 'is')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">11.28114128112793</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'is', 'is')" target="(5, 8, 'is', 'name')" id="0">
+  <data key="d0">3.952937126159668</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 2, 'is', 'name')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">9.747946739196777</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">6.05219841003418</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">5.095239639282227</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">5.964056015014648</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'name', 'name')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">9.825234413146973</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'name', 'name')" target="(1, 2, 'is', 'name')" id="0">
+  <data key="d0">11.95750617980957</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'name', 'name')" target="(5, 8, 'is', 'name')" id="0">
+  <data key="d0">19.802003860473633</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'name', 'name')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">4.546208381652832</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'name', 'name')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">5.143617630004883</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(5, 8, 'is', 'name')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">8.541587829589844</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 7, 'is', 'is')" target="(5, 8, 'is', 'name')" id="0">
+  <data key="d0">3.1035265922546387</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'is', 'is')" target="(5, 8, 'is', 'name')" id="0">
+  <data key="d0">5.404430866241455</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'is', 'is')" target="(1, 2, 'is', 'name')" id="0">
+  <data key="d0">4.275384902954102</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 2, 'is', 'name')" target="(5, 8, 'is', 'name')" id="0">
+  <data key="d0">2.4932143688201904</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'is', 'is')" target="(1, 2, 'is', 'name')" id="0">
+  <data key="d0">5.8011016845703125</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'is', 'is')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">22.081897735595703</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(11, 9, 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.6178760528564453</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">33.506404876708984</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">45.46964645385742</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="1">
+  <data key="d0">294.207763671875</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">159.962646484375</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="1">
+  <data key="d0">161.71554565429688</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(10, 'AH bias', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">37.13816833496094</data>
+  <data key="d1">d</data>
+</edge>
+</graph></graphml>

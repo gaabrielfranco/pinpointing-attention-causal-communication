@@ -1,0 +1,751 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="(0, 'MLP', 'end', 'end')"/>
+<node id="('Correct - Incorrect pronoum', 'end')"/>
+<node id="(3, 2, 'end', 'end-1')"/>
+<node id="(0, 'AH bias', 'end', 'end')"/>
+<node id="(1, 'AH bias', 'end', 'end')"/>
+<node id="(2, 'AH bias', 'end', 'end')"/>
+<node id="(0, 'MLP', 'end-1', 'end-1')"/>
+<node id="(0, 'AH bias', 'end-1', 'end-1')"/>
+<node id="(2, 'AH bias', 'end-1', 'end-1')"/>
+<node id="(6, 'MLP', 'end', 'end')"/>
+<node id="(7, 5, 'end', 'is')"/>
+<node id="(0, 0, 'end', 'end-1')"/>
+<node id="(2, 9, 'end', 'end-1')"/>
+<node id="(3, 4, 'end', 'punct')"/>
+<node id="(1, 2, 'end', 'punct')"/>
+<node id="(0, 'MLP', 'punct', 'punct')"/>
+<node id="(0, 'AH bias', 'punct', 'punct')"/>
+<node id="(1, 'MLP', 'end', 'end')"/>
+<node id="(1, 'AH bias', 'punct', 'punct')"/>
+<node id="(2, 'AH bias', 'punct', 'punct')"/>
+<node id="(4, 7, 'end', 'end-1')"/>
+<node id="(2, 11, 'end', 'end-1')"/>
+<node id="(1, 'MLP', 'end-1', 'end-1')"/>
+<node id="(3, 'AH bias', 'end', 'end')"/>
+<node id="(0, 0, 'end-1', 'punct')"/>
+<node id="(1, 2, 'end-1', 'punct')"/>
+<node id="(2, 'MLP', 'end-1', 'end-1')"/>
+<node id="(3, 0, 'end-1', 'punct')"/>
+<node id="(1, 'AH bias', 'end-1', 'end-1')"/>
+<node id="(3, 1, 'end-1', 'punct')"/>
+<node id="(3, 'MLP', 'end-1', 'end-1')"/>
+<node id="(3, 'AH bias', 'end-1', 'end-1')"/>
+<node id="(6, 8, 'end', 'punct')"/>
+<node id="(4, 4, 'end', 'end-1')"/>
+<node id="(3, 3, 'end', 'end')"/>
+<node id="(2, 6, 'end', 'end-1')"/>
+<node id="(2, 'MLP', 'end', 'end')"/>
+<node id="(4, 5, 'end', 'end-1')"/>
+<node id="(4, 'AH bias', 'end', 'end')"/>
+<node id="(5, 'AH bias', 'end', 'end')"/>
+<node id="(0, 0, 'punct', 'punct')"/>
+<node id="(1, 'MLP', 'punct', 'punct')"/>
+<node id="(2, 'MLP', 'punct', 'punct')"/>
+<node id="(3, 2, 'punct', 'noun')"/>
+<node id="(0, 'MLP', 'noun', 'noun')"/>
+<node id="(0, 'AH bias', 'noun', 'noun')"/>
+<node id="(2, 'AH bias', 'noun', 'noun')"/>
+<node id="(5, 'MLP', 'punct', 'punct')"/>
+<node id="(2, 'MLP', 'is', 'is')"/>
+<node id="(3, 2, 'is', 'name')"/>
+<node id="(1, 'MLP', 'is', 'is')"/>
+<node id="(1, 'AH bias', 'is', 'is')"/>
+<node id="(2, 'AH bias', 'is', 'is')"/>
+<node id="(0, 'MLP', 'name', 'name')"/>
+<node id="(1, 'MLP', 'name', 'name')"/>
+<node id="(6, 'MLP', 'is', 'is')"/>
+<node id="(7, 'MLP', 'end', 'end')"/>
+<node id="(8, 4, 'end', 'punct')"/>
+<node id="(3, 'MLP', 'end', 'end')"/>
+<node id="(7, 'MLP', 'punct', 'punct')"/>
+<node id="(9, 3, 'end', 'name')"/>
+<node id="(8, 'MLP', 'end', 'end')"/>
+<node id="(6, 'MLP', 'name', 'name')"/>
+<node id="(7, 'MLP', 'name', 'name')"/>
+<node id="(9, 3, 'end', 'is')"/>
+<node id="(0, 6, 'is', 'is')"/>
+<node id="(8, 'MLP', 'is', 'is')"/>
+<node id="(10, 'MLP', 'end', 'end')"/>
+<node id="(11, 9, 'end', 'end')"/>
+<node id="(9, 'MLP', 'end', 'end')"/>
+<node id="(10, 'AH bias', 'end', 'end')"/>
+<edge source="(0, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.3918682932853699</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d0">13.598434448242188</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 2, 'end', 'punct')" id="0">
+  <data key="d0">19.61739158630371</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">5.318599700927734</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 11, 'end', 'end-1')" id="0">
+  <data key="d0">28.00320053100586</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">4.289624214172363</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">1.824819564819336</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="0">
+  <data key="d0">12.780057907104492</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="1">
+  <data key="d0">12.658735275268555</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">8.96034049987793</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">4.321150302886963</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 2, 'end', 'end-1')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.28438276052474976</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">9.061751365661621</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d0">6.927212715148926</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">1.791473150253296</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(1, 2, 'end', 'punct')" id="0">
+  <data key="d0">19.298599243164062</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">3.147083282470703</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.2502540349960327</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">1.6926673650741577</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">2.8049116134643555</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">5.0406341552734375</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">13.901290893554688</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">9.83590030670166</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d0">3.6200785636901855</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">1.7521162033081055</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">3.059685707092285</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.4722992181777954</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">1.916276454925537</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">3.2660164833068848</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">11.725074768066406</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">1.8607311248779297</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">2.1752772331237793</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">1.9855109453201294</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">7.761844635009766</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d0">16.031770706176758</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(2, 11, 'end', 'end-1')" id="0">
+  <data key="d0">30.612163543701172</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">3.5255677700042725</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 2, 'end-1', 'punct')" id="0">
+  <data key="d0">21.926292419433594</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">8.869953155517578</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">6.974582672119141</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">9.01452922821045</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">13.201492309570312</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d0">3.858436346054077</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(1, 2, 'end-1', 'punct')" id="0">
+  <data key="d0">15.956008911132812</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">5.075328826904297</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">5.181476593017578</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end-1', 'end-1')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">2.9358537197113037</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'end-1', 'end-1')" target="(3, 2, 'end', 'end-1')" id="0">
+  <data key="d0">8.064162254333496</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'end-1', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">1.2798035144805908</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'end-1', 'end-1')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">4.105830192565918</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end-1', 'end-1')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">4.449365615844727</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.6326045989990234</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">7.697145462036133</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">17.115421295166016</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">33.21084976196289</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 5, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.3898848295211792</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'end', 'end-1')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">2.2423791885375977</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'end', 'end-1')" target="(2, 11, 'end', 'end-1')" id="0">
+  <data key="d0">8.565086364746094</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'end', 'end-1')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.4054654836654663</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'end', 'end-1')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">0.8860206604003906</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 9, 'end', 'end-1')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">2.2186527252197266</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 4, 'end', 'punct')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">1.8477232456207275</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 2, 'end', 'punct')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">0.7403138875961304</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'punct', 'punct')" target="(1, 2, 'end', 'punct')" id="0">
+  <data key="d0">15.37873363494873</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'punct', 'punct')" target="(1, 2, 'end-1', 'punct')" id="0">
+  <data key="d0">13.044418334960938</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'punct', 'punct')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">9.919736862182617</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'punct', 'punct')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">4.109943389892578</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(1, 2, 'end', 'punct')" id="0">
+  <data key="d0">10.267570495605469</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">4.884676933288574</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(1, 2, 'end-1', 'punct')" id="0">
+  <data key="d0">14.525224685668945</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">5.433873176574707</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">4.683770179748535</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'punct', 'punct')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">14.234586715698242</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">0.739410400390625</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">5.817824840545654</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(2, 11, 'end', 'end-1')" id="0">
+  <data key="d0">10.80371379852295</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">2.3304595947265625</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="0">
+  <data key="d0">5.098447322845459</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="1">
+  <data key="d0">9.053889274597168</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">2.8475170135498047</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">4.496543884277344</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'punct', 'punct')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">2.883066177368164</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'AH bias', 'punct', 'punct')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">5.623974800109863</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'AH bias', 'punct', 'punct')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">2.535522937774658</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'punct', 'punct')" target="(3, 4, 'end', 'punct')" id="0">
+  <data key="d0">3.351292610168457</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'punct', 'punct')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">7.709232807159424</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'punct', 'punct')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">3.1245617866516113</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'punct', 'punct')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">15.0313081741333</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(4, 7, 'end', 'end-1')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">2.588618516921997</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 11, 'end', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">3.1314821243286133</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 11, 'end', 'end-1')" target="(3, 3, 'end', 'end')" id="0">
+  <data key="d0">8.078746795654297</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 11, 'end', 'end-1')" target="(3, 3, 'end', 'end')" id="1">
+  <data key="d0">9.429744720458984</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(2, 11, 'end', 'end-1')" id="0">
+  <data key="d0">8.715658187866211</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">3.1934213638305664</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">4.184304237365723</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">1.5822339057922363</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">2.544832229614258</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">3.4741177558898926</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'end-1', 'punct')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">4.3255085945129395</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 0, 'end-1', 'punct')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">2.4159910678863525</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 2, 'end-1', 'punct')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">0.8268890380859375</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 2, 'end-1', 'punct')" target="(2, 6, 'end', 'end-1')" id="0">
+  <data key="d0">4.891357898712158</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">5.015570640563965</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">5.7342610359191895</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 0, 'end-1', 'punct')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">1.3555742502212524</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'AH bias', 'end-1', 'end-1')" target="(3, 0, 'end-1', 'punct')" id="0">
+  <data key="d0">3.1861166954040527</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end-1', 'end-1')" target="(3, 1, 'end-1', 'punct')" id="0">
+  <data key="d0">4.3510613441467285</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 1, 'end-1', 'punct')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">2.399332284927368</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 1, 'end-1', 'punct')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">4.208643913269043</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 1, 'end-1', 'punct')" target="(4, 5, 'end', 'end-1')" id="0">
+  <data key="d0">2.265364646911621</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 'MLP', 'end-1', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">4.042865753173828</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 'MLP', 'end-1', 'end-1')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">4.682352066040039</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 'AH bias', 'end-1', 'end-1')" target="(4, 7, 'end', 'end-1')" id="0">
+  <data key="d0">1.5065279006958008</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(6, 8, 'end', 'punct')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">3.3105757236480713</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(4, 4, 'end', 'end-1')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.772861123085022</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 3, 'end', 'end')" target="(4, 4, 'end', 'end-1')" id="0">
+  <data key="d0">0.5671422481536865</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 6, 'end', 'end-1')" target="(3, 3, 'end', 'end')" id="0">
+  <data key="d0">2.773768663406372</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="0">
+  <data key="d0">13.042850494384766</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(3, 3, 'end', 'end')" id="1">
+  <data key="d0">13.681097030639648</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">16.719951629638672</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(4, 5, 'end', 'end-1')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.2370104789733887</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.3158471584320068</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">14.865777015686035</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(5, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.5147265195846558</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(5, 'AH bias', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">33.625244140625</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 0, 'punct', 'punct')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">2.1784071922302246</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'punct', 'punct')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.5394877195358276</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'punct', 'punct')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">17.079002380371094</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'MLP', 'punct', 'punct')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.833193063735962</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 2, 'punct', 'noun')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">1.4903199672698975</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'MLP', 'noun', 'noun')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">11.397459030151367</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'noun', 'noun')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">16.6283016204834</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'noun', 'noun')" target="(3, 2, 'punct', 'noun')" id="0">
+  <data key="d0">10.973302841186523</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(5, 'MLP', 'punct', 'punct')" target="(6, 8, 'end', 'punct')" id="0">
+  <data key="d0">3.707730770111084</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(5, 'MLP', 'punct', 'punct')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">74.8650131225586</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'is', 'is')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">7.938067436218262</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(2, 'MLP', 'is', 'is')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">13.016006469726562</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 2, 'is', 'name')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">9.645848274230957</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(3, 2, 'is', 'name')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">12.860703468322754</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">4.863935470581055</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">4.817315101623535</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'is', 'is')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">5.561666488647461</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'MLP', 'name', 'name')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">10.519287109375</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(1, 'MLP', 'name', 'name')" target="(3, 2, 'is', 'name')" id="0">
+  <data key="d0">6.191486358642578</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(6, 'MLP', 'is', 'is')" target="(7, 5, 'end', 'is')" id="0">
+  <data key="d0">9.036663055419922</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.2618662714958191</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">71.58995056152344</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'name')" id="0">
+  <data key="d0">10.35302734375</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">11.681891441345215</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">90.62629699707031</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 4, 'end', 'punct')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.16379188001155853</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">19.3002872467041</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(7, 'MLP', 'punct', 'punct')" target="(8, 4, 'end', 'punct')" id="0">
+  <data key="d0">103.81552124023438</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(9, 3, 'end', 'name')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.21394850313663483</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'name')" id="0">
+  <data key="d0">19.79137420654297</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">31.785449981689453</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">70.45073699951172</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(6, 'MLP', 'name', 'name')" target="(9, 3, 'end', 'name')" id="0">
+  <data key="d0">20.39949607849121</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(7, 'MLP', 'name', 'name')" target="(9, 3, 'end', 'name')" id="0">
+  <data key="d0">22.429611206054688</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(9, 3, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">1.3455142974853516</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 6, 'is', 'is')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">7.788613319396973</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(8, 'MLP', 'is', 'is')" target="(9, 3, 'end', 'is')" id="0">
+  <data key="d0">12.896133422851562</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.7814517021179199</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">151.02566528320312</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="1">
+  <data key="d0">160.6580352783203</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(11, 9, 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">0.7311286330223083</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">49.85444641113281</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(11, 9, 'end', 'end')" id="1">
+  <data key="d0">304.60101318359375</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(10, 'AH bias', 'end', 'end')" target="(11, 9, 'end', 'end')" id="0">
+  <data key="d0">38.43098449707031</data>
+  <data key="d1">d</data>
+</edge>
+</graph></graphml>

@@ -1,0 +1,4366 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="type" attr.type="string"/>
+<key id="d2" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d1" for="node" attr.name="y" attr.type="double"/>
+<key id="d0" for="node" attr.name="x" attr.type="double"/>
+<graph edgedefault="directed"><node id="(9, 6, 'end', 'IO')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-1430.0</data>
+</node>
+<node id="('IO-S direction', 'end')">
+  <data key="d0">0.0</data>
+  <data key="d1">-1680.0</data>
+</node>
+<node id="(0, 'MLP', 'end', 'end')">
+  <data key="d0">675.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 'AH bias', 'end', 'end')">
+  <data key="d0">75.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(3, 'MLP', 'end', 'end')">
+  <data key="d0">75.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 3, 'end', 'end-1')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(0, 1, 'end', 'end')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 9, 'end', 'starts')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(1, 3, 'end', 'starts')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 9, 'end', 'punct')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'S2+1')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'verb')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'end-1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'end')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 1, 'starts', 'starts')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 'MLP', 'starts', 'starts')">
+  <data key="d0">825.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 'Embedding', 'starts', 'starts')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 8, 'end', 'starts')">
+  <data key="d0">975.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 5, 'starts', 'starts')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(1, 'MLP', 'end', 'end')">
+  <data key="d0">225.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(2, 8, 'end', 'verb')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 3, 'end', 'end')">
+  <data key="d0">525.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 11, 'end', 'S1-1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 11, 'end', 'S1+1')">
+  <data key="d0">375.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 11, 'end', 'punct')">
+  <data key="d0">525.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 11, 'end', 'end')">
+  <data key="d0">675.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 'Embedding', 'end', 'end')">
+  <data key="d0">-300.0</data>
+  <data key="d1">-320.0</data>
+</node>
+<node id="(0, 9, 'verb', 'punct')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'verb', 'S2+1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'verb', 'verb')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 'MLP', 'verb', 'verb')">
+  <data key="d0">975.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(1, 'MLP', 'verb', 'verb')">
+  <data key="d0">375.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(2, 'MLP', 'end', 'end')">
+  <data key="d0">375.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(2, 'AH bias', 'end', 'end')">
+  <data key="d0">0.0</data>
+  <data key="d1">-650.0</data>
+</node>
+<node id="(3, 9, 'end', 'verb')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(0, 1, 'verb', 'verb')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 5, 'verb', 'verb')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 11, 'end-1', 'starts')">
+  <data key="d0">825.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(2, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">525.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(5, 9, 'end', 'starts')">
+  <data key="d0">375.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(0, 9, 'starts', 'starts')">
+  <data key="d0">75.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 'AH bias', 'starts', 'starts')">
+  <data key="d0">225.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 'MLP', 'starts', 'starts')">
+  <data key="d0">525.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(2, 'MLP', 'starts', 'starts')">
+  <data key="d0">675.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(2, 'AH bias', 'starts', 'starts')">
+  <data key="d0">150.0</data>
+  <data key="d1">-650.0</data>
+</node>
+<node id="(3, 'MLP', 'starts', 'starts')">
+  <data key="d0">225.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 'MLP', 'starts', 'starts')">
+  <data key="d0">75.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(4, 'AH bias', 'starts', 'starts')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(5, 'MLP', 'end', 'end')">
+  <data key="d0">825.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(6, 7, 'end', 'end-1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(2, 5, 'end', 'end-1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 11, 'end', 'starts')">
+  <data key="d0">975.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 9, 'end-1', 'S2')">
+  <data key="d0">225.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(4, 0, 'end', 'verb')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(1, 4, 'end', 'end-1')">
+  <data key="d0">375.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 7, 'end', 'end')">
+  <data key="d0">75.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 9, 'end', 'S1-1')">
+  <data key="d0">375.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'S1+1')">
+  <data key="d0">525.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end', 'IO+1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 0, 'end-1', 'starts')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 7, 'end-1', 'verb')">
+  <data key="d0">225.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 8, 'end-1', 'end-1')">
+  <data key="d0">525.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 10, 'end-1', 'end-1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 'Embedding', 'end-1', 'end-1')">
+  <data key="d0">-150.0</data>
+  <data key="d1">-320.0</data>
+</node>
+<node id="(3, 'AH bias', 'end', 'end')">
+  <data key="d0">0.0</data>
+  <data key="d1">-790.0</data>
+</node>
+<node id="(4, 11, 'end', 'end-1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(1, 8, 'end-1', 'starts')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(5, 8, 'end', 'starts')">
+  <data key="d0">225.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(1, 4, 'end', 'starts')">
+  <data key="d0">525.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 11, 'end', 'IO+1')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(1, 8, 'starts', 'starts')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(4, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(5, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(6, 'MLP', 'end', 'end')">
+  <data key="d0">75.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(7, 9, 'end', 'S2')">
+  <data key="d0">225.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(4, 'MLP', 'end', 'end')">
+  <data key="d0">375.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(4, 'AH bias', 'end', 'end')">
+  <data key="d0">0.0</data>
+  <data key="d1">-930.0</data>
+</node>
+<node id="(5, 10, 'end', 'end-1')">
+  <data key="d0">525.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(1, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(3, 5, 'end-1', 'end-1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(0, 3, 'end-1', 'end-1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(1, 3, 'end-1', 'starts')">
+  <data key="d0">75.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 9, 'end-1', 'starts')">
+  <data key="d0">825.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end-1', 'S1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end-1', 'punct')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-120.0</data>
+</node>
+<node id="(0, 9, 'end-1', 'verb')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(1, 11, 'end-1', 'end-1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(0, 1, 'end-1', 'end-1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 4, 'end-1', 'end-1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 5, 'end-1', 'end-1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(1, 10, 'end-1', 'S1-1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(3, 'MLP', 'end-1', 'end-1')">
+  <data key="d0">375.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(5, 10, 'end', 'end')">
+  <data key="d0">675.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(3, 7, 'end', 'end-1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(2, 0, 'end', 'end')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(1, 2, 'end', 'end-1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 11, 'end', 'verb')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(1, 2, 'end', 'end')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(2, 5, 'end', 'end')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(6, 0, 'end', 'verb')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(1, 0, 'end', 'verb')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 6, 'end', 'end')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 7, 'end', 'verb')">
+  <data key="d0">375.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(6, 8, 'end', 'end-1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(5, 4, 'end', 'verb')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(2, 9, 'end', 'end-1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 'MLP', 'S2', 'S2')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(2, 'MLP', 'S2', 'S2')">
+  <data key="d0">825.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(3, 0, 'S2', 'S1')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(0, 1, 'S2', 'S1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 3, 'S2', 'S2')">
+  <data key="d0">825.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 4, 'S2', 'S2')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 'AH bias', 'S2', 'S2')">
+  <data key="d0">375.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 'MLP', 'S2', 'S2')">
+  <data key="d0">825.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(0, 'MLP', 'S1', 'S1')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 'MLP', 'S1', 'S1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(2, 'MLP', 'S1', 'S1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(5, 5, 'S2', 'S1+1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(3, 'MLP', 'S2', 'S2')">
+  <data key="d0">525.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 'MLP', 'S2', 'S2')">
+  <data key="d0">525.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(2, 2, 'S1+1', 'S1')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 9, 'S1+1', 'starts')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 11, 'S1+1', 'S1+1')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 'MLP', 'S1+1', 'S1+1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 3, 'S1', 'S1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(2, 9, 'S1+1', 'S1')">
+  <data key="d0">75.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 11, 'S1+1', 'starts')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 11, 'S1+1', 'S1-1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 8, 'S1', 'starts')">
+  <data key="d0">675.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(3, 7, 'S1+1', 'S1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(1, 8, 'S1+1', 'starts')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(0, 5, 'S1', 'S1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(1, 11, 'S1', 'starts')">
+  <data key="d0">75.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(4, 3, 'S1+1', 'S1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(3, 'MLP', 'S1', 'S1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 11, 'S1+1', 'S1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(2, 8, 'S1+1', 'starts')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(1, 4, 'starts', 'starts')">
+  <data key="d0">675.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(2, 8, 'S1+1', 'S1-1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 'MLP', 'S1-1', 'S1-1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 1, 'S1-1', 'starts')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 'Embedding', 'S1-1', 'S1-1')">
+  <data key="d0">0.0</data>
+  <data key="d1">-320.0</data>
+</node>
+<node id="(0, 1, 'S1', 'S1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 10, 'S1', 'S1')">
+  <data key="d0">75.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(5, 'MLP', 'S2', 'S2')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(7, 'MLP', 'end', 'end')">
+  <data key="d0">375.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(8, 5, 'end', 'S2+1')">
+  <data key="d0">-150.0</data>
+  <data key="d1">-1340.0</data>
+</node>
+<node id="(0, 5, 'S2+1', 'S2+1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 'MLP', 'S2+1', 'S2+1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 'MLP', 'S2+1', 'S2+1')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(8, 6, 'end', 'S2')">
+  <data key="d0">0.0</data>
+  <data key="d1">-1340.0</data>
+</node>
+<node id="(3, 4, 'end', 'starts')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(1, 2, 'starts', 'starts')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(5, 1, 'end', 'starts')">
+  <data key="d0">-975.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(1, 'AH bias', 'end', 'end')">
+  <data key="d0">150.0</data>
+  <data key="d1">-510.0</data>
+</node>
+<node id="(7, 0, 'end', 'starts')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(7, 7, 'end', 'starts')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(6, 'AH bias', 'starts', 'starts')">
+  <data key="d0">675.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(7, 8, 'end', 'verb')">
+  <data key="d0">75.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(5, 2, 'end', 'end-1')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(0, 11, 'end-1', 'S1-1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(6, 'AH bias', 'end', 'end')">
+  <data key="d0">825.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(0, 'AH bias', 'verb', 'verb')">
+  <data key="d0">525.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 8, 'verb', 'starts')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(6, 'MLP', 'verb', 'verb')">
+  <data key="d0">225.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(6, 3, 'S2', 'IO+1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(0, 9, 'S2', 'starts')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 11, 'S2', 'punct')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(1, 1, 'S2', 'punct')">
+  <data key="d0">-825.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 11, 'S2', 'S1-1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 11, 'S2', 'S1+1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 11, 'S2', 'IO+1')">
+  <data key="d0">75.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(0, 'Embedding', 'S2', 'S2')">
+  <data key="d0">150.0</data>
+  <data key="d1">-320.0</data>
+</node>
+<node id="(0, 1, 'punct', 'punct')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 9, 'punct', 'punct')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 'MLP', 'punct', 'punct')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(0, 1, 'IO+1', 'IO+1')">
+  <data key="d0">75.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 5, 'IO+1', 'IO+1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 'MLP', 'IO+1', 'IO+1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(3, 5, 'IO+1', 'S1+1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(0, 11, 'IO+1', 'S1-1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(1, 8, 'IO+1', 'starts')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(1, 'MLP', 'S1+1', 'S1+1')">
+  <data key="d0">-150.0</data>
+  <data key="d1">-510.0</data>
+</node>
+<node id="(2, 'MLP', 'S1+1', 'S1+1')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(3, 'MLP', 'IO+1', 'IO+1')">
+  <data key="d0">825.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 3, 'IO+1', 'S1+1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(0, 'AH bias', 'S1+1', 'S1+1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(4, 'MLP', 'IO+1', 'IO+1')">
+  <data key="d0">675.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(5, 2, 'IO+1', 'S1+1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(3, 'MLP', 'S1+1', 'S1+1')">
+  <data key="d0">975.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(4, 'MLP', 'S1+1', 'S1+1')">
+  <data key="d0">825.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(5, 3, 'IO+1', 'S1-1')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(0, 'AH bias', 'S1-1', 'S1-1')">
+  <data key="d0">825.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 4, 'S1-1', 'starts')">
+  <data key="d0">825.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 9, 'S1-1', 'starts')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(6, 'MLP', 'S2', 'S2')">
+  <data key="d0">375.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(7, 'MLP', 'S2', 'S2')">
+  <data key="d0">525.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(8, 'MLP', 'end', 'end')">
+  <data key="d0">150.0</data>
+  <data key="d1">-1340.0</data>
+</node>
+<node id="(0, 'MLP', 'IO', 'IO')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 1, 'IO', 'S1+1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-410.0</data>
+</node>
+<node id="(0, 9, 'IO', 'starts')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(0, 'Embedding', 'IO', 'IO')">
+  <data key="d0">300.0</data>
+  <data key="d1">-320.0</data>
+</node>
+<node id="(0, 1, 'S1+1', 'S1+1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 8, 'S1+1', 'S1+1')">
+  <data key="d0">825.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(4, 8, 'IO', 'S1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(4, 11, 'IO', 'S1+1')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(4, 'MLP', 'IO', 'IO')">
+  <data key="d0">975.0</data>
+  <data key="d1">-880.0</data>
+</node>
+<node id="(5, 0, 'IO', 'S1+1')">
+  <data key="d0">-1125.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(0, 1, 'IO', 'IO')">
+  <data key="d0">375.0</data>
+  <data key="d1">-20.0</data>
+</node>
+<node id="(0, 'AH bias', 'IO', 'IO')">
+  <data key="d0">975.0</data>
+  <data key="d1">-270.0</data>
+</node>
+<node id="(1, 'MLP', 'IO', 'IO')">
+  <data key="d0">0.0</data>
+  <data key="d1">-510.0</data>
+</node>
+<node id="(2, 9, 'IO', 'S1')">
+  <data key="d0">225.0</data>
+  <data key="d1">-600.0</data>
+</node>
+<node id="(0, 11, 'IO', 'S1+1')">
+  <data key="d0">375.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(1, 8, 'IO', 'starts')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(2, 'MLP', 'IO', 'IO')">
+  <data key="d0">-150.0</data>
+  <data key="d1">-650.0</data>
+</node>
+<node id="(5, 6, 'IO', 'S1+1')">
+  <data key="d0">75.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(3, 7, 'IO', 'S1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(5, 'MLP', 'IO', 'IO')">
+  <data key="d0">0.0</data>
+  <data key="d1">-1070.0</data>
+</node>
+<node id="(6, 0, 'IO', 'S1+1')">
+  <data key="d0">-675.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(6, 1, 'IO', 'S1+1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(0, 5, 'S1+1', 'S1+1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(0, 9, 'S1+1', 'S1+1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-170.0</data>
+</node>
+<node id="(6, 'MLP', 'IO', 'IO')">
+  <data key="d0">525.0</data>
+  <data key="d1">-1160.0</data>
+</node>
+<node id="(7, 0, 'IO', 'S1+1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(7, 4, 'IO', 'S1+1')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(0, 11, 'IO', 'S1-1')">
+  <data key="d0">525.0</data>
+  <data key="d1">-220.0</data>
+</node>
+<node id="(7, 'MLP', 'IO', 'IO')">
+  <data key="d0">675.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(8, 'MLP', 'IO', 'IO')">
+  <data key="d0">300.0</data>
+  <data key="d1">-1340.0</data>
+</node>
+<node id="(9, 9, 'end', 'IO')">
+  <data key="d0">75.0</data>
+  <data key="d1">-1430.0</data>
+</node>
+<node id="(10, 2, 'end', 'IO')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-1520.0</data>
+</node>
+<node id="(8, 3, 'end', 'IO')">
+  <data key="d0">-300.0</data>
+  <data key="d1">-1340.0</data>
+</node>
+<node id="(7, 3, 'end', 'verb')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-1250.0</data>
+</node>
+<node id="(9, 3, 'end', 'end')">
+  <data key="d0">-225.0</data>
+  <data key="d1">-1430.0</data>
+</node>
+<node id="(1, 8, 'end', 'end')">
+  <data key="d0">-375.0</data>
+  <data key="d1">-460.0</data>
+</node>
+<node id="(9, 'MLP', 'end', 'end')">
+  <data key="d0">225.0</data>
+  <data key="d1">-1430.0</data>
+</node>
+<node id="(5, 2, 'IO', 'S1+1')">
+  <data key="d0">-525.0</data>
+  <data key="d1">-1020.0</data>
+</node>
+<node id="(10, 6, 'end', 'IO')">
+  <data key="d0">-75.0</data>
+  <data key="d1">-1520.0</data>
+</node>
+<node id="(0, 8, 'IO', 'starts')">
+  <data key="d0">975.0</data>
+  <data key="d1">-70.0</data>
+</node>
+<node id="(3, 'MLP', 'IO', 'IO')">
+  <data key="d0">1125.0</data>
+  <data key="d1">-740.0</data>
+</node>
+<node id="(11, 1, 'end', 'IO')">
+  <data key="d0">0.0</data>
+  <data key="d1">-1610.0</data>
+</node>
+<node id="(10, 'MLP', 'end', 'end')">
+  <data key="d0">75.0</data>
+  <data key="d1">-1520.0</data>
+</node>
+<node id="(10, 'MLP', 'IO', 'IO')">
+  <data key="d0">225.0</data>
+  <data key="d1">-1520.0</data>
+</node>
+<edge source="(9, 6, 'end', 'IO')" target="('IO-S direction', 'end')" id="0">
+  <data key="d2">0.8836218118667603</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.4218027591705322</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">19.987762451171875</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">22.064075469970703</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">23.348777770996094</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">10.138072967529297</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">8.456863403320312</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">13.048971176147461</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">25.949073791503906</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">2.646427631378174</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">104.23798370361328</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">9.022647857666016</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">1.5348749160766602</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">8.153679847717285</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">24.487159729003906</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">6.769647598266602</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 0, 'end', 'end')" id="1">
+  <data key="d2">6.0118184089660645</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.5373122692108154</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.5800731778144836</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 2, 'end', 'end')" id="1">
+  <data key="d2">8.23195743560791</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">12.072760581970215</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 5, 'end', 'end')" id="1">
+  <data key="d2">8.972768783569336</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">1.9420008659362793</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">12.293867111206055</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">14.391641616821289</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">11.192178726196289</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">14.285422325134277</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">16.618654251098633</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">10.292109489440918</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">4.394012451171875</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">13.82071590423584</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">33.71334457397461</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">7.338225364685059</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">12.034348487854004</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">12.097326278686523</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.440079927444458</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">7.689037322998047</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">10.283075332641602</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'end')" id="1">
+  <data key="d2">16.626083374023438</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">2.4719362258911133</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7758541107177734</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">18.57223892211914</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.4755975604057312</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">4.433801651000977</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">5.43610143661499</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">2.734367847442627</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">1.1619889736175537</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">31.247364044189453</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">38.351036071777344</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">30.528350830078125</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">21.03397560119629</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">3.3620030879974365</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.782165050506592</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'end', 'end')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">2.9587512016296387</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7144725322723389</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">2.173541307449341</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.9370083808898926</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.9189367294311523</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">3.323578357696533</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">5.221391677856445</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end')" id="1">
+  <data key="d2">5.839306354522705</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.0447492599487305</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">0.7869011163711548</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">2.883549690246582</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.0544871091842651</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.28971529006958</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.7022269368171692</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.7266658544540405</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.52192223072052</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">2.045464038848877</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.567367434501648</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">6.620300769805908</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">10.405372619628906</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(5, 10, 'end', 'end')" id="1">
+  <data key="d2">5.683775901794434</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.1601040363311768</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.895359992980957</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.593683660030365</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.7168897390365601</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.6410434246063232</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.8907158374786377</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.778205156326294</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 3, 'end', 'end-1')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.466177225112915</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">1.3918060064315796</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.7682783603668213</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">0.966841995716095</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">2.3595569133758545</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">0.9692564606666565</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.9195383191108704</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.7989283800125122</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.5787747502326965</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">1.1575204133987427</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">1.6003317832946777</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">1.0498812198638916</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.4429362416267395</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.45268747210502625</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.7345210313796997</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.8658938407897949</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.8944350481033325</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.663044810295105</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.4751262664794922</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'starts')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.9299929141998291</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">1.4629144668579102</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.399294853210449</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">2.4788401126861572</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">3.2224698066711426</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.6497650146484375</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.3701387643814087</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.9318318367004395</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.889711618423462</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.0831682682037354</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.8668670654296875</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">2.830915927886963</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.8256968259811401</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.5137873291969299</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.7877716422080994</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.48195984959602356</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end', 'starts')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.9160348773002625</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'punct')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">0.9665197730064392</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'punct')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.34406647086143494</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'S2+1')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">0.8937913775444031</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'S2+1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.291767954826355</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'verb')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">1.0528993606567383</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'verb')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.31042158603668213</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'verb')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">2.202454090118408</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'verb')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.9370269775390625</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">0.9745779633522034</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.24652275443077087</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">2.5421719551086426</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.9118597507476807</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.41290074586868286</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end-1')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.517132043838501</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">1.5333657264709473</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.3488212823867798</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">1.007093071937561</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.5871084928512573</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">3.548288345336914</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">5.991693019866943</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">2.985032081604004</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">3.1487789154052734</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 8, 'end', 'starts')" id="0">
+  <data key="d2">1.0780547857284546</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 8, 'end-1', 'starts')" id="0">
+  <data key="d2">1.0397896766662598</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">1.460524559020996</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">2.952139377593994</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 8, 'verb', 'starts')" id="0">
+  <data key="d2">1.0896073579788208</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 8, 'IO+1', 'starts')" id="0">
+  <data key="d2">0.8220691680908203</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'starts', 'starts')" target="(1, 8, 'IO', 'starts')" id="0">
+  <data key="d2">1.109002709388733</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">6.70869779586792</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'end', 'starts')" id="0">
+  <data key="d2">2.5442023277282715</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">8.857137680053711</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'end-1', 'starts')" id="0">
+  <data key="d2">1.899295449256897</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">3.741238594055176</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">22.41621971130371</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">6.591590404510498</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">7.1321916580200195</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(2, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">2.9705686569213867</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 1, 'S1-1', 'starts')" id="0">
+  <data key="d2">20.82910919189453</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">12.344436645507812</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">14.740804672241211</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">42.48888397216797</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">9.497756958007812</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'verb', 'starts')" id="0">
+  <data key="d2">4.410117149353027</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'IO+1', 'starts')" id="0">
+  <data key="d2">6.811590194702148</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 4, 'S1-1', 'starts')" id="0">
+  <data key="d2">9.44338607788086</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'starts', 'starts')" target="(1, 8, 'IO', 'starts')" id="0">
+  <data key="d2">5.704015731811523</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 3, 'end', 'starts')" id="0">
+  <data key="d2">3.5691678524017334</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'end', 'starts')" id="0">
+  <data key="d2">0.8953530788421631</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'end-1', 'starts')" id="0">
+  <data key="d2">0.4065345823764801</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">1.3810393810272217</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">3.3680639266967773</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">1.6642122268676758</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.8221761584281921</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'verb', 'starts')" id="0">
+  <data key="d2">0.6446425914764404</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'IO+1', 'starts')" id="0">
+  <data key="d2">1.3583124876022339</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'starts', 'starts')" target="(1, 8, 'IO', 'starts')" id="0">
+  <data key="d2">1.0593295097351074</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">1.501756191253662</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">2.736013412475586</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.944319248199463</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.41680651903152466</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.6312940120697021</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">0.8248370289802551</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">1.3669792413711548</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">1.3347593545913696</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.3956406116485596</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.6992050409317017</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'starts')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.9633030295372009</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 5, 'starts', 'starts')" target="(1, 8, 'end', 'starts')" id="0">
+  <data key="d2">0.6692700982093811</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'starts', 'starts')" target="(1, 8, 'end-1', 'starts')" id="0">
+  <data key="d2">0.6935156583786011</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'starts', 'starts')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.559374213218689</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'starts', 'starts')" target="(1, 8, 'verb', 'starts')" id="0">
+  <data key="d2">0.8075369596481323</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">1.2498224973678589</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">3.190366744995117</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">2.884718894958496</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">13.542049407958984</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">1.4097286462783813</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.6315447092056274</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">2.7420713901519775</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">0.8214634656906128</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">1.1144412755966187</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.6983609795570374</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">7.047259330749512</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">2.79707670211792</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.6449706554412842</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 8, 'end', 'verb')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">6.0388264656066895</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 8, 'end', 'verb')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.3561735153198242</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 8, 'end', 'verb')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">34.16492462158203</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 8, 'end', 'verb')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">1.5152801275253296</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 8, 'end', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.3256299495697021</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.456371784210205</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">3.428088665008545</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.216960906982422</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.2622131109237671</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.985519289970398</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">4.167909622192383</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.7922496795654297</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.2061961889266968</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">1.1234205961227417</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">1.613335132598877</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">4.141134262084961</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">1.3559801578521729</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.5830698013305664</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.7509929537773132</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">1.0112029314041138</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.452354907989502</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">3.086458206176758</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.1338541507720947</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.2468772828578949</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.3489982485771179</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.4849426746368408</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.5302877426147461</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.6064250469207764</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">4.040225028991699</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.931273341178894</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.8721873760223389</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.891701877117157</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">3.0577220916748047</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.8041691780090332</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.7814053297042847</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1-1')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.622620701789856</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.141730785369873</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">2.712012767791748</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.31574296951293945</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.2638049125671387</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.4832887649536133</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.5574763417243958</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.557044267654419</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.7699065208435059</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">2.7031896114349365</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'S1+1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.5765429139137268</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'punct')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.120771884918213</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'punct')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.3173145651817322</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'punct')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.5260385870933533</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'punct')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.5186688899993896</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'punct')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.664684534072876</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">2.192837715148926</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">2.6268973350524902</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.3147149384021759</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.2271617650985718</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.5493676662445068</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.5267064571380615</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.7147114276885986</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">2.6063332557678223</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">4.54623556137085</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">7.583094596862793</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">1.174413800239563</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.9338812828063965</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">3.671532154083252</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.5996699333190918</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">2.4680087566375732</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">9.186272621154785</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">4.912534713745117</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end', 'end')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">8.471837997436523</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'verb', 'punct')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">4.387280464172363</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'verb', 'S2+1')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">7.016040325164795</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'verb', 'S2+1')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.444261074066162</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'verb', 'verb')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">4.923429012298584</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'verb', 'verb')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.7163439989089966</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">14.314373016357422</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">23.700855255126953</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">32.96269989013672</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">15.10450553894043</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">10.765141487121582</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">18.76946258544922</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">13.689825057983398</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'verb', 'verb')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">11.405903816223145</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'verb', 'verb')" target="(2, 8, 'end', 'verb')" id="0">
+  <data key="d2">4.735689640045166</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'verb', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">3.8512773513793945</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'verb', 'verb')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">3.597944498062134</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">3.0727977752685547</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.1355316638946533</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.0862274169921875</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.6306975483894348</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.40083980560302734</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">2.493340492248535</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">4.102418899536133</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.866897463798523</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">30.543272018432617</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">1.2853951454162598</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">5.700230598449707</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">2.310166835784912</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">1.945026159286499</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'AH bias', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.0980019569396973</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 9, 'end', 'verb')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">4.0247931480407715</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 9, 'end', 'verb')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.4685118198394775</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 9, 'end', 'verb')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">14.626083374023438</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 9, 'end', 'verb')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">1.3511357307434082</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 9, 'end', 'verb')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.9208734035491943</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'verb', 'verb')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">7.055761337280273</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'verb', 'verb')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.6116083860397339</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'verb', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">5.921126365661621</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'verb', 'verb')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">10.184771537780762</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'verb', 'verb')" target="(3, 9, 'end', 'verb')" id="0">
+  <data key="d2">5.597177028656006</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'verb', 'verb')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">15.191353797912598</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'verb', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">4.793023109436035</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'verb', 'verb')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">6.917488098144531</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">10.225946426391602</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">5.761833190917969</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.40698426961898804</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">2.4054436683654785</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">5.648845195770264</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">8.29565143585205</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'starts')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">4.531497478485107</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">23.0568904876709</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">11.602296829223633</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">2.4609813690185547</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">167.67120361328125</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">10.39089298248291</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">4.8728413581848145</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">4.695585250854492</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="1">
+  <data key="d2">4.963200569152832</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.6624606847763062</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">25.51908302307129</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="1">
+  <data key="d2">28.58795928955078</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">4.311662197113037</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">51.88823318481445</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">13.410444259643555</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">23.333791732788086</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'end-1', 'end-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">13.30293083190918</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(4, 3, 'end', 'end-1')" id="0">
+  <data key="d2">7.468531608581543</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">3.110765218734741</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">4.951606750488281</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.4665770530700684</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="1">
+  <data key="d2">4.032623291015625</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.214036226272583</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.9991387128829956</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">1.1382582187652588</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.1836978197097778</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.4101121425628662</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 9, 'end', 'starts')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.4907057285308838</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">1.5595550537109375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">2.5395126342773438</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'starts', 'starts')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">6.2249250411987305</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">1.5573430061340332</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'starts', 'starts')" target="(1, 4, 'S1-1', 'starts')" id="0">
+  <data key="d2">2.240598440170288</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">3.71458101272583</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'starts', 'starts')" target="(2, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">1.1172966957092285</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'starts', 'starts')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">33.4354362487793</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">6.652502536773682</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">2.470655918121338</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'starts', 'starts')" target="(2, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">4.98676061630249</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">1.9361987113952637</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">6.866692543029785</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">4.80942964553833</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">5.860682010650635</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">3.146696090698242</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">19.219667434692383</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">4.746022701263428</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">11.744579315185547</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'AH bias', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">0.8988863229751587</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">1.23782479763031</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">1.7634868621826172</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">1.0811859369277954</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'AH bias', 'starts', 'starts')" target="(5, 9, 'end', 'starts')" id="0">
+  <data key="d2">1.4659459590911865</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'AH bias', 'starts', 'starts')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">13.484436988830566</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.619724988937378</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.075395941734314</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">3.5367367267608643</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.7085533142089844</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.8310235738754272</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">3.2169268131256104</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.186673641204834</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">4.88571834564209</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.8620495796203613</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 7, 'end', 'end-1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.0265203714370728</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 7, 'end', 'end-1')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.021167278289795</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 5, 'end', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.6584473848342896</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 5, 'end', 'end-1')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">19.3790283203125</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 5, 'end', 'end-1')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.7372336387634277</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 5, 'end', 'end-1')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.5010748505592346</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'starts')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">2.743898391723633</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'starts')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.3402346670627594</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'starts')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.6680127382278442</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'starts')" target="(2, 5, 'end', 'end')" id="0">
+  <data key="d2">3.729914665222168</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'starts')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">2.697225570678711</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'S2')" target="(2, 5, 'end', 'end-1')" id="0">
+  <data key="d2">5.206683158874512</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'S2')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.15699702501296997</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'S2')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.8928037285804749</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'S2')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">5.351574897766113</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 0, 'end', 'verb')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.7696201205253601</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'end', 'end-1')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">2.265756130218506</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'end', 'end-1')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.38385599851608276</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'end', 'end-1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.6586228013038635</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 7, 'end', 'end')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.23181672394275665</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'S1-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.20747217535972595</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'S1+1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.2721712589263916</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end', 'IO+1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.22605516016483307</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 0, 'end-1', 'starts')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.17385534942150116</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 7, 'end-1', 'verb')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.23717454075813293</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 8, 'end-1', 'end-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.23970112204551697</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 10, 'end-1', 'end-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.20799270272254944</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 10, 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">0.8999749422073364</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 10, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.882946729660034</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end-1', 'end-1')" target="(1, 4, 'end', 'end-1')" id="0">
+  <data key="d2">0.4537404179573059</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'end-1', 'end-1')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.6249108910560608</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'end-1', 'end-1')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.7003893852233887</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'end-1', 'end-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">4.2495198249816895</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(4, 0, 'end', 'verb')" id="0">
+  <data key="d2">1.9354827404022217</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">13.531163215637207</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.7830841541290283</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'AH bias', 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.8144090175628662</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 11, 'end', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.7505966424942017</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 11, 'end', 'end-1')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">1.7813645601272583</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'end', 'end-1')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">2.203589677810669</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 11, 'end', 'end-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">3.2362003326416016</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end-1', 'starts')" target="(4, 11, 'end', 'end-1')" id="0">
+  <data key="d2">60.75710678100586</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'end-1', 'starts')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.562111735343933</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'end-1', 'starts')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">0.7659799456596375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'end-1', 'starts')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">6.180776119232178</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 8, 'end', 'starts')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">0.9976190328598022</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'end', 'starts')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">1.1532856225967407</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'end', 'starts')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.7125163078308105</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'IO+1')" target="(1, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.3196437656879425</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'IO+1')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.49479028582572937</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'IO+1')" target="(1, 2, 'end', 'end')" id="0">
+  <data key="d2">0.5160825252532959</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'IO+1')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.7084053754806519</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'starts', 'starts')" target="(5, 8, 'end', 'starts')" id="0">
+  <data key="d2">6.771658420562744</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">1.7468150854110718</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'starts', 'starts')" target="(7, 0, 'end', 'starts')" id="0">
+  <data key="d2">8.592377662658691</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'end-1', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">2.155275583267212</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">1.8251633644104004</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'end-1', 'end-1')" target="(6, 7, 'end', 'end-1')" id="0">
+  <data key="d2">2.315009355545044</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">2.1298394203186035</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">2.7986810207366943</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.7212924957275391</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">4.96174430847168</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">4.9883856773376465</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.2737380266189575</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">5.953281402587891</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">1.8150792121887207</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.666771411895752</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'end', 'end')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">2.1726701259613037</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 9, 'end', 'S2')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7648308277130127</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 9, 'end', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.1362504959106445</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 9, 'end', 'S2')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.9932842254638672</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 9, 'end', 'S2')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">2.1028120517730713</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 9, 'end', 'S2')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.5079045295715332</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.5569874048233032</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">5.505734920501709</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">5.807563781738281</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(5, 10, 'end', 'end')" id="1">
+  <data key="d2">5.292923450469971</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">2.595836639404297</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.6781613826751709</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.677743911743164</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.7839023470878601</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">1.0510333776474</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">1.4143427610397339</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">0.7311636209487915</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.8185945749282837</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.6173828840255737</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'AH bias', 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.522954523563385</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 10, 'end', 'end-1')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.40743857622146606</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">3.9655580520629883</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.2581896781921387</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="1">
+  <data key="d2">0.6019667387008667</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 5, 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">1.3579297065734863</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 3, 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">1.1979148387908936</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.703123092651367</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 3, 'end-1', 'starts')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">0.7270735502243042</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'starts')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">1.3922245502471924</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'S1')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.6902148723602295</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'punct')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.8498128652572632</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'end-1', 'verb')" target="(1, 3, 'end-1', 'starts')" id="0">
+  <data key="d2">0.6195926666259766</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 11, 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">1.187260627746582</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">3.960240364074707</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="1">
+  <data key="d2">5.817500114440918</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'end-1', 'end-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">0.5857117772102356</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 4, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.1651203632354736</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 5, 'end-1', 'end-1')" target="(1, 11, 'end-1', 'end-1')" id="0">
+  <data key="d2">2.6413164138793945</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 10, 'end-1', 'S1-1')" target="(3, 5, 'end-1', 'end-1')" id="0">
+  <data key="d2">0.6455592513084412</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 10, 'end-1', 'S1-1')" target="(2, 9, 'end', 'end-1')" id="0">
+  <data key="d2">3.3706955909729004</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'end-1', 'end-1')" target="(5, 10, 'end', 'end-1')" id="0">
+  <data key="d2">3.906622886657715</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 10, 'end', 'end')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.6713396906852722</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 10, 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.8438959121704102</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 10, 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.7465072870254517</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 7, 'end', 'end-1')" target="(5, 10, 'end', 'end')" id="0">
+  <data key="d2">1.9084452390670776</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 7, 'end', 'end-1')" target="(5, 10, 'end', 'end')" id="1">
+  <data key="d2">1.8656368255615234</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 7, 'end', 'end-1')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">1.065324068069458</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 7, 'end', 'end-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">1.7164957523345947</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 0, 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.6539818048477173</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 2, 'end', 'end-1')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.2495101690292358</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 2, 'end', 'end-1')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.39063724875450134</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end', 'verb')" target="(1, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.4102565050125122</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 2, 'end', 'end')" target="(2, 0, 'end', 'end')" id="0">
+  <data key="d2">1.402610421180725</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 2, 'end', 'end')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.4173864424228668</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 5, 'end', 'end')" target="(3, 7, 'end', 'end-1')" id="0">
+  <data key="d2">1.5047037601470947</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 0, 'end', 'verb')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.7892652750015259</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 0, 'end', 'verb')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.9022165536880493</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 0, 'end', 'verb')" target="(6, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.9273126125335693</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 0, 'end', 'verb')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.7149083018302917</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 0, 'end', 'verb')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.9177058935165405</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 6, 'end', 'end')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.8446764349937439</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 7, 'end', 'verb')" target="(1, 0, 'end', 'verb')" id="0">
+  <data key="d2">0.5386264324188232</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 8, 'end', 'end-1')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">0.4564100205898285</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 8, 'end', 'end-1')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">0.8076731562614441</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 4, 'end', 'verb')" target="(6, 8, 'end', 'end-1')" id="0">
+  <data key="d2">1.0807067155838013</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 9, 'end', 'end-1')" target="(5, 4, 'end', 'verb')" id="0">
+  <data key="d2">0.9183104038238525</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 9, 'end', 'end-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">0.9831308722496033</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">7.01163387298584</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">19.093219757080078</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">25.395111083984375</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">2.7882354259490967</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">4.251341819763184</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S2', 'S2')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">4.278277397155762</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'S2', 'S2')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">4.545867443084717</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">1.978435754776001</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'S2', 'S2')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">2.889575958251953</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">2.8014090061187744</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.9594019055366516</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 0, 'S2', 'S1')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">4.08367395401001</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 0, 'S2', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">6.059347152709961</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 0, 'S2', 'S1')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.3420171737670898</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'S2', 'S1')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">1.2025121450424194</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'S2', 'S1')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.4663102924823761</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">1.4566625356674194</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 3, 'S2', 'S2')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.9026772975921631</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 4, 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">1.705687165260315</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">1.5421264171600342</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'S2', 'S2')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">5.103568077087402</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.5037699937820435</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7454605102539062</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1', 'S1')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">24.658458709716797</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1', 'S1')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">3.6201653480529785</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">41.71588897705078</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1', 'S1')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">5.005697250366211</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1', 'S1')" target="(3, 7, 'IO', 'S1')" id="0">
+  <data key="d2">2.9115333557128906</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">5.776406288146973</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(2, 2, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.195741653442383</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.375048637390137</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">3.5447983741760254</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">14.186522483825684</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">3.0182037353515625</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S1', 'S1')" target="(3, 7, 'IO', 'S1')" id="0">
+  <data key="d2">1.809419870376587</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1', 'S1')" target="(3, 0, 'S2', 'S1')" id="0">
+  <data key="d2">2.8055055141448975</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1', 'S1')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">3.1885247230529785</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">16.20156478881836</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1', 'S1')" target="(3, 7, 'IO', 'S1')" id="0">
+  <data key="d2">2.9168457984924316</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 5, 'S2', 'S1+1')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">4.101240158081055</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 5, 'S2', 'S1+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7546131014823914</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'S2', 'S2')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">2.636902332305908</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">2.7701964378356934</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7558760643005371</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'S2', 'S2')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">3.626156806945801</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.0235432386398315</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7688401937484741</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 2, 'S1+1', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">8.333873748779297</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'starts')" target="(2, 2, 'S1+1', 'S1')" id="0">
+  <data key="d2">7.312142372131348</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'starts')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">5.168676376342773</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'starts')" target="(2, 8, 'S1+1', 'S1-1')" id="0">
+  <data key="d2">2.867676258087158</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'S1+1')" target="(2, 2, 'S1+1', 'S1')" id="0">
+  <data key="d2">6.428754806518555</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'S1+1')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">4.185225009918213</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'S1+1')" target="(2, 8, 'S1+1', 'S1-1')" id="0">
+  <data key="d2">2.3708205223083496</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'S1+1')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">0.9786556959152222</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(2, 2, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.619505882263184</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.149505615234375</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(3, 7, 'S1+1', 'S1')" id="0">
+  <data key="d2">23.408946990966797</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">14.925188064575195</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">47.683753967285156</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(2, 8, 'S1+1', 'S1-1')" id="0">
+  <data key="d2">2.982306718826294</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">5.358922004699707</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(4, 3, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">9.343167304992676</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.8018417358398438</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">28.786169052124023</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">6.4452805519104</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">5.287468910217285</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(6, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">4.214018821716309</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.6044440269470215</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(7, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">5.075747966766357</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.1039085388183594</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1+1', 'S1+1')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.413581609725952</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 3, 'S1', 'S1')" target="(2, 2, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.938568115234375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 3, 'S1', 'S1')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">5.401346206665039</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 9, 'S1+1', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">5.484645843505859</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 9, 'S1+1', 'S1')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">32.248687744140625</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 9, 'S1+1', 'S1')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.873203754425049</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 9, 'S1+1', 'S1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.034518003463745</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'starts')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">2.847064971923828</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S1+1', 'S1-1')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">3.3853979110717773</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 8, 'S1', 'starts')" target="(2, 9, 'S1+1', 'S1')" id="0">
+  <data key="d2">2.04880428314209</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 8, 'S1', 'starts')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">1.4189174175262451</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 7, 'S1+1', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">7.608811855316162</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 7, 'S1+1', 'S1')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">21.04534912109375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 7, 'S1+1', 'S1')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">5.5453948974609375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'S1+1', 'starts')" target="(3, 7, 'S1+1', 'S1')" id="0">
+  <data key="d2">10.541122436523438</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'S1+1', 'starts')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">7.1911420822143555</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 5, 'S1', 'S1')" target="(3, 7, 'S1+1', 'S1')" id="0">
+  <data key="d2">7.999844074249268</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 11, 'S1', 'starts')" target="(3, 7, 'S1+1', 'S1')" id="0">
+  <data key="d2">9.181098937988281</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 3, 'S1+1', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">6.46453857421875</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 3, 'S1+1', 'S1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.1106460094451904</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'S1', 'S1')" target="(4, 3, 'S1+1', 'S1')" id="0">
+  <data key="d2">3.7672312259674072</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">15.242987632751465</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'S1+1', 'S1')" target="(5, 5, 'S2', 'S1+1')" id="0">
+  <data key="d2">13.349363327026367</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'S1+1', 'S1')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">9.476431846618652</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'S1+1', 'S1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.2091379165649414</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 8, 'S1+1', 'starts')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">27.52740478515625</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 4, 'starts', 'starts')" target="(2, 8, 'S1+1', 'starts')" id="0">
+  <data key="d2">1.3435370922088623</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 8, 'S1+1', 'S1-1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">26.176494598388672</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1-1', 'S1-1')" target="(2, 8, 'S1+1', 'S1-1')" id="0">
+  <data key="d2">1.4955813884735107</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S1-1', 'S1-1')" target="(1, 1, 'S1-1', 'starts')" id="0">
+  <data key="d2">4.512777328491211</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'S1-1', 'S1-1')" target="(1, 4, 'S1-1', 'starts')" id="0">
+  <data key="d2">7.005990982055664</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 1, 'S1-1', 'starts')" target="(2, 8, 'S1+1', 'S1-1')" id="0">
+  <data key="d2">3.9167113304138184</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'Embedding', 'S1-1', 'S1-1')" target="(1, 1, 'S1-1', 'starts')" id="0">
+  <data key="d2">1.3017494678497314</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">7.0389018058776855</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 10, 'S1', 'S1')" target="(4, 11, 'S1+1', 'S1')" id="0">
+  <data key="d2">8.680152893066406</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'S2', 'S2')" target="(7, 9, 'end', 'S2')" id="0">
+  <data key="d2">3.6534252166748047</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">3.043597459793091</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'S2', 'S2')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.8962782621383667</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">3.592151641845703</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">2.1516265869140625</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.957683563232422</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.4323883056640625</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">4.604655742645264</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">4.158828258514404</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 5, 'end', 'S2+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.9735338091850281</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 5, 'S2+1', 'S2+1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">6.76383638381958</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'S2+1', 'S2+1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">10.494583129882812</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'S2+1', 'S2+1')" target="(8, 5, 'end', 'S2+1')" id="0">
+  <data key="d2">4.0998406410217285</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 6, 'end', 'S2')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">6.677495956420898</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 6, 'end', 'S2')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">4.505937576293945</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 6, 'end', 'S2')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.3405749797821045</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 6, 'end', 'S2')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">4.467083930969238</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 6, 'end', 'S2')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">2.2235045433044434</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 4, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.5052112340927124</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 2, 'starts', 'starts')" target="(3, 4, 'end', 'starts')" id="0">
+  <data key="d2">0.8085062503814697</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 1, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">1.640031099319458</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'AH bias', 'end', 'end')" target="(5, 1, 'end', 'starts')" id="0">
+  <data key="d2">9.11341667175293</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 0, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.8029077649116516</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 7, 'end', 'starts')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.8389899730682373</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'AH bias', 'starts', 'starts')" target="(7, 7, 'end', 'starts')" id="0">
+  <data key="d2">2.7028961181640625</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 8, 'end', 'verb')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.6144315600395203</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 2, 'end', 'end-1')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.4508944749832153</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 2, 'end', 'end-1')" target="(7, 3, 'end', 'verb')" id="0">
+  <data key="d2">0.46287110447883606</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'end-1', 'S1-1')" target="(5, 2, 'end', 'end-1')" id="0">
+  <data key="d2">2.868480920791626</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'AH bias', 'end', 'end')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">1.0915889739990234</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'AH bias', 'verb', 'verb')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">3.91491436958313</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 8, 'verb', 'starts')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">3.4946577548980713</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'verb', 'verb')" target="(7, 8, 'end', 'verb')" id="0">
+  <data key="d2">5.324440956115723</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 3, 'S2', 'IO+1')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">0.8055187463760376</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S2', 'starts')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.5939151644706726</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'S2', 'starts')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">1.0570755004882812</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S2', 'punct')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.6153110265731812</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S2', 'punct')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.9982621669769287</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 1, 'S2', 'punct')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.8294045329093933</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S2', 'S1-1')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.5697545409202576</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S2', 'S1+1')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.5592522025108337</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'S2', 'IO+1')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">0.730604887008667</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'S2', 'S2')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">2.450200080871582</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'punct', 'punct')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">2.70933198928833</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'punct', 'punct')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">1.6859186887741089</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'punct', 'punct')" target="(1, 1, 'S2', 'punct')" id="0">
+  <data key="d2">13.262880325317383</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'IO+1', 'IO+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">1.203513741493225</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'IO+1', 'IO+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">1.373521089553833</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO+1', 'IO+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">1.4983196258544922</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO+1', 'IO+1')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">8.486352920532227</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO+1', 'IO+1')" target="(4, 3, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">16.166454315185547</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO+1', 'IO+1')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">6.8528971672058105</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO+1', 'IO+1')" target="(5, 3, 'IO+1', 'S1-1')" id="0">
+  <data key="d2">9.937448501586914</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(3, 5, 'IO+1', 'S1+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">1.267443299293518</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'IO+1', 'S1-1')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">1.5789082050323486</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO+1', 'S1-1')" target="(4, 3, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">3.1216890811920166</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO+1', 'S1-1')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">1.614017128944397</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO+1', 'S1-1')" target="(5, 3, 'IO+1', 'S1-1')" id="0">
+  <data key="d2">2.6199159622192383</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO+1', 'starts')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">1.8586599826812744</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO+1', 'starts')" target="(4, 3, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">4.267909049987793</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO+1', 'starts')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">1.7497169971466064</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO+1', 'starts')" target="(5, 3, 'IO+1', 'S1-1')" id="0">
+  <data key="d2">3.389331817626953</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'S1+1', 'S1+1')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">1.317507266998291</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1+1', 'S1+1')" target="(3, 5, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">2.958024263381958</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'S1+1', 'S1+1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.8774824142456055</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'IO+1', 'IO+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7560965418815613</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 3, 'IO+1', 'S1+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7627819776535034</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(4, 3, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">11.038307189941406</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">3.1010305881500244</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(6, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">6.5711870193481445</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">5.345282077789307</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(7, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">9.048948287963867</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">4.832172870635986</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1+1', 'S1+1')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.7762131690979004</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO+1', 'IO+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">1.2517355680465698</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 2, 'IO+1', 'S1+1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.7152261734008789</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'S1+1', 'S1+1')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">2.1397461891174316</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'S1+1', 'S1+1')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">27.09809684753418</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'S1+1', 'S1+1')" target="(5, 2, 'IO+1', 'S1+1')" id="0">
+  <data key="d2">3.501950740814209</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'S1+1', 'S1+1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.9994165897369385</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'S1+1', 'S1+1')" target="(6, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.4233012199401855</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'S1+1', 'S1+1')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.2523996829986572</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 3, 'IO+1', 'S1-1')" target="(6, 3, 'S2', 'IO+1')" id="0">
+  <data key="d2">0.978449821472168</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'S1-1', 'S1-1')" target="(5, 3, 'IO+1', 'S1-1')" id="0">
+  <data key="d2">7.83137321472168</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 4, 'S1-1', 'starts')" target="(5, 3, 'IO+1', 'S1-1')" id="0">
+  <data key="d2">6.629167556762695</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S1-1', 'starts')" target="(1, 4, 'S1-1', 'starts')" id="0">
+  <data key="d2">6.392248153686523</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(6, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">3.3720412254333496</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'S2', 'S2')" target="(8, 6, 'end', 'S2')" id="0">
+  <data key="d2">3.745920181274414</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">5.904099464416504</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">4.1351213455200195</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.5516374111175537</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">6.650296211242676</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 'MLP', 'end', 'end')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.6310598850250244</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">4.425649166107178</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">6.431331634521484</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">135.2373046875</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">11.799324035644531</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">4.705198764801025</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">11.199573516845703</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(3, 7, 'IO', 'S1')" id="0">
+  <data key="d2">16.510154724121094</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(6, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">15.771194458007812</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">10.772882461547852</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(7, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">12.751370429992676</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">9.033295631408691</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">5.310816764831543</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">2.593245029449463</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">6.061675071716309</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">10.344676971435547</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">7.2826313972473145</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">3.432110071182251</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 1, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.8599629402160645</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'IO', 'starts')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.2971174716949463</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'IO', 'starts')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.2844479084014893</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'IO', 'starts')" target="(7, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.0657753944396973</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'IO', 'starts')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.808970332145691</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 9, 'IO', 'starts')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.118924856185913</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'IO', 'IO')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.22276771068573</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'S1+1', 'S1+1')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">0.6370753049850464</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'S1+1', 'S1+1')" target="(4, 11, 'IO', 'S1+1')" id="0">
+  <data key="d2">23.362140655517578</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 8, 'S1+1', 'S1+1')" target="(1, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">0.5142832398414612</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 8, 'IO', 'S1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.9684942960739136</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 8, 'IO', 'S1')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.2137701511383057</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 8, 'IO', 'S1')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.7036868929862976</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.059472918510437</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 11, 'IO', 'S1+1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">5.252159118652344</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 11, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.4178550243377686</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.4928414821624756</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">4.00814151763916</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.272636651992798</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">1.1984307765960693</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.3021149635314941</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.3185795545578003</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(4, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.1486625671386719</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">3.4127767086029053</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.9055075645446777</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">3.3486599922180176</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">2.4664249420166016</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.5558910369873047</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">2.3639373779296875</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 0, 'IO', 'S1+1')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">0.6277226209640503</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.6219667196273804</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 1, 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.5095549821853638</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 1, 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">0.7288525700569153</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 'AH bias', 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.8995158672332764</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.894484519958496</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">0.97035813331604</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.520169734954834</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">2.5050430297851562</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7032582759857178</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(1, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.1273597478866577</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 9, 'IO', 'S1')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.9644888639450073</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 9, 'IO', 'S1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">4.183963775634766</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO', 'S1+1')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">0.9518417119979858</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.699178695678711</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 11, 'IO', 'S1+1')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.222901463508606</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(2, 9, 'IO', 'S1')" id="0">
+  <data key="d2">0.9967218637466431</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(3, 7, 'IO', 'S1')" id="0">
+  <data key="d2">4.595676898956299</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(6, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">4.07179069519043</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.541632890701294</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.0899744033813477</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'IO', 'starts')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.211843967437744</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'IO', 'IO')" target="(5, 0, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.3932554721832275</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(2, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.1922733783721924</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.645822286605835</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(2, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.598461627960205</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 6, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.0452061891555786</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 7, 'IO', 'S1')" target="(5, 6, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.1328012943267822</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">3.5439209938049316</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.2652103900909424</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">4.8814778327941895</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">4.315701484680176</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.4765897989273071</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">4.1275553703308105</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(5, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.660966157913208</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 0, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.9254359602928162</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 0, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.0705147981643677</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 1, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.4678958654403687</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 1, 'IO', 'S1+1')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.3582453727722168</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 1, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.5961735248565674</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 1, 'IO', 'S1+1')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.0989599227905273</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'S1+1', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">3.1169321537017822</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 5, 'S1+1', 'S1+1')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.6349058151245117</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'S1+1')" target="(6, 1, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.8340868949890137</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'S1+1')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">2.365324020385742</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 9, 'S1+1', 'S1+1')" target="(5, 2, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.7438637018203735</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7084094285964966</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">2.9014816284179688</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">1.8202170133590698</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.89056396484375</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(6, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.363492727279663</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 0, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7000123262405396</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 0, 'IO', 'S1+1')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.2591569423675537</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 0, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.319603681564331</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 4, 'IO', 'S1+1')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.7552344799041748</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 4, 'IO', 'S1+1')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">1.3917735815048218</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 4, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.6489851474761963</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 4, 'IO', 'S1+1')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.1547688245773315</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(0, 11, 'IO', 'S1-1')" target="(7, 4, 'IO', 'S1+1')" id="0">
+  <data key="d2">1.2144279479980469</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">5.029003620147705</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">3.63419771194458</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">3.2908132076263428</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.113471508026123</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">3.244408130645752</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(7, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">1.5212575197219849</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'IO', 'IO')" target="(9, 6, 'end', 'IO')" id="0">
+  <data key="d2">4.866213798522949</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'IO', 'IO')" target="(9, 9, 'end', 'IO')" id="0">
+  <data key="d2">3.3606276512145996</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'IO', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">2.7161002159118652</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">2.7730860710144043</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(8, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">0.9196988940238953</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(9, 9, 'end', 'IO')" target="('IO-S direction', 'end')" id="0">
+  <data key="d2">3.0786962509155273</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(10, 2, 'end', 'IO')" target="('IO-S direction', 'end')" id="0">
+  <data key="d2">0.9832245707511902</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(8, 3, 'end', 'IO')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.7425607442855835</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(7, 3, 'end', 'verb')" target="(8, 3, 'end', 'IO')" id="0">
+  <data key="d2">2.1287007331848145</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(9, 3, 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">0.8042005300521851</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(1, 8, 'end', 'end')" target="(9, 3, 'end', 'end')" id="0">
+  <data key="d2">0.5434611439704895</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">3.9479050636291504</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">4.8820085525512695</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(9, 'MLP', 'end', 'end')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">3.279447555541992</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(5, 2, 'IO', 'S1+1')" target="(10, 2, 'end', 'IO')" id="0">
+  <data key="d2">1.0005897283554077</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(10, 6, 'end', 'IO')" target="('IO-S direction', 'end')" id="0">
+  <data key="d2">1.6418503522872925</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(0, 8, 'IO', 'starts')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">0.8382753133773804</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(3, 'MLP', 'IO', 'IO')" target="(10, 6, 'end', 'IO')" id="0">
+  <data key="d2">1.6894786357879639</data>
+  <data key="d3">s</data>
+</edge>
+<edge source="(11, 1, 'end', 'IO')" target="('IO-S direction', 'end')" id="0">
+  <data key="d2">0.7567325830459595</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(10, 'MLP', 'end', 'end')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">6.61464786529541</data>
+  <data key="d3">d</data>
+</edge>
+<edge source="(10, 'MLP', 'IO', 'IO')" target="(11, 1, 'end', 'IO')" id="0">
+  <data key="d2">0.6118688583374023</data>
+  <data key="d3">s</data>
+</edge>
+</graph></graphml>

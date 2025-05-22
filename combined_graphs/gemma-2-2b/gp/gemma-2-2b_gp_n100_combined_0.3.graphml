@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="id" attr.type="string" />
+  <key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <key id="d2" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d1" for="edge" attr.name="prompts_appeared" attr.type="string" />
+  <key id="d0" for="node" attr.name="n_appearences" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="(0, 'Embedding', 'end', 'end')">
+      <data key="d0">49</data>
+    </node>
+    <node id="('Correct - Incorrect pronoum', 'end')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(18, 'MLP', 'end', 'end')">
+      <data key="d0">83</data>
+    </node>
+    <node id="(21, 4, 'end', 'is')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(17, 'MLP', 'end', 'end')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(19, 'MLP', 'end', 'end')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(0, 'Embedding', 'is', 'is')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(15, 'MLP', 'is', 'is')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(18, 'MLP', 'is', 'is')">
+      <data key="d0">82</data>
+    </node>
+    <node id="(22, 'MLP', 'end', 'end')">
+      <data key="d0">94</data>
+    </node>
+    <node id="(24, 'MLP', 'end', 'end')">
+      <data key="d0">34</data>
+    </node>
+    <edge source="(0, 'Embedding', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]</data>
+      <data key="d2">1.633788877345146</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(18, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+      <data key="d1">[0, 2, 3, 4, 5, 7, 8, 10, 12, 13, 14, 15, 17, 18, 20, 22, 23, 25, 27, 28, 29, 30, 32, 33, 35, 37, 38, 39, 40, 42, 43, 44, 45, 47, 48, 49]</data>
+      <data key="d2">0.780455731331034</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(18, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 2, 3, 4, 5, 6, 7, 8, 10, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 27, 28, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 40, 42, 43, 44, 45, 47, 48, 49, 50, 51, 52, 53, 54, 55, 57, 58, 59, 60, 62, 63, 64, 65, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">3.8874694387963475</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(21, 4, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">2.828744833773755</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(17, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">5.272074701938223</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(19, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">14.123972426069544</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(0, 'Embedding', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">13.016554132420966</data>
+      <data key="d3">s</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(15, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">6.753069365278203</data>
+      <data key="d3">s</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(18, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 6, 7, 8, 10, 11, 12, 13, 14, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">4.611771329920343</data>
+      <data key="d3">s</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(22, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+      <data key="d1">[0, 1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 75, 76, 77, 78, 80, 81, 82, 83, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96, 97, 98]</data>
+      <data key="d2">4.187172515595213</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(24, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+      <data key="d1">[0, 2, 3, 5, 8, 10, 12, 15, 20, 22, 23, 25, 27, 28, 30, 32, 33, 35, 37, 38, 40, 42, 43, 45, 47, 48, 51, 52, 62, 72, 77, 82, 92, 97]</data>
+      <data key="d2">0.7345523624978167</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+  </graph>
+</graphml>

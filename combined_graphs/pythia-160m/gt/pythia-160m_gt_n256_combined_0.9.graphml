@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d4" for="edge" attr.name="id" attr.type="string" />
+  <key id="d3" for="edge" attr.name="type" attr.type="string" />
+  <key id="d2" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d1" for="edge" attr.name="prompts_appeared" attr.type="string" />
+  <key id="d0" for="node" attr.name="n_appearences" attr.type="long" />
+  <graph edgedefault="directed">
+    <node id="('True YY - False YY', 'end')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(0, 'MLP', 'end', 'end')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(5, 0, 'end', 'YY')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(2, 'MLP', 'end', 'end')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(3, 0, 'YY', 'XX1')">
+      <data key="d0">37</data>
+    </node>
+    <node id="(0, 'MLP', 'YY', 'YY')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(3, 2, 'YY', 'XX1')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(0, 'AH bias', 'YY', 'YY')">
+      <data key="d0">37</data>
+    </node>
+    <node id="(1, 'MLP', 'YY', 'YY')">
+      <data key="d0">37</data>
+    </node>
+    <node id="(1, 'AH bias', 'YY', 'YY')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(2, 'AH bias', 'YY', 'YY')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(0, 'MLP', 'XX1', 'XX1')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(0, 'AH bias', 'XX1', 'XX1')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(1, 'AH bias', 'XX1', 'XX1')">
+      <data key="d0">37</data>
+    </node>
+    <node id="(2, 'AH bias', 'XX1', 'XX1')">
+      <data key="d0">39</data>
+    </node>
+    <node id="(0, 8, 'YY', 'XX1')">
+      <data key="d0">35</data>
+    </node>
+    <node id="(8, 'MLP', 'end', 'end')">
+      <data key="d0">37</data>
+    </node>
+    <edge source="(0, 'MLP', 'end', 'end')" target="(5, 0, 'end', 'YY')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">53.52556336231721</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(0, 'MLP', 'end', 'end')" target="('True YY - False YY', 'end')" id="0">
+      <data key="d1">[71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 168, 171, 172, 173, 174, 176, 181, 184, 189, 190, 191, 240]</data>
+      <data key="d2">0.26506095971816623</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(5, 0, 'end', 'YY')" target="('True YY - False YY', 'end')" id="0">
+      <data key="d1">[92, 93, 94, 95, 96, 189, 190, 191, 192, 193]</data>
+      <data key="d2">0.11737402509420346</data>
+      <data key="d3">d</data>
+      <data key="d4">0</data>
+    </edge>
+    <edge source="(2, 'MLP', 'end', 'end')" target="(5, 0, 'end', 'YY')" id="0">
+      <data key="d1">[5, 12, 14, 71, 76, 85, 92, 93, 94, 96, 103, 109, 127, 168, 170, 184, 189, 190, 191, 192, 193, 205, 214]</data>
+      <data key="d2">8.060057664528872</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(3, 0, 'YY', 'XX1')" target="(5, 0, 'end', 'YY')" id="0">
+      <data key="d1">[71, 74, 75, 76, 77, 91, 93, 95, 96, 127, 168, 170, 171, 172, 173, 174, 181, 188, 189, 190, 191, 192, 193, 240]</data>
+      <data key="d2">13.71348469073956</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 'MLP', 'YY', 'YY')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">9.52215688656538</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(0, 'MLP', 'YY', 'YY')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 108, 109, 127, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">8.790096649756798</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(3, 2, 'YY', 'XX1')" target="(5, 0, 'end', 'YY')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">47.720325959034454</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 'AH bias', 'YY', 'YY')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">6.944827984540891</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(0, 'AH bias', 'YY', 'YY')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[12, 14, 71, 77, 107, 108, 109, 168, 170, 171, 176, 205]</data>
+      <data key="d2">2.5399459325350247</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(1, 'MLP', 'YY', 'YY')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 240]</data>
+      <data key="d2">3.4952939657064586</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(1, 'MLP', 'YY', 'YY')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 74, 85, 91, 92, 93, 94, 95, 96, 103, 127, 172, 181, 184, 188, 189, 190, 191, 192, 193]</data>
+      <data key="d2">3.5552330995217347</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(1, 'AH bias', 'YY', 'YY')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">4.754811519231552</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(1, 'AH bias', 'YY', 'YY')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">8.537973489516821</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(2, 'AH bias', 'YY', 'YY')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">6.607546146099384</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(2, 'AH bias', 'YY', 'YY')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">10.55919248629839</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(0, 'MLP', 'XX1', 'XX1')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">11.016136340605907</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 'MLP', 'XX1', 'XX1')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">13.221104279542581</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 'AH bias', 'XX1', 'XX1')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">7.187601933112512</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 'AH bias', 'XX1', 'XX1')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">16.482054881560497</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(1, 'AH bias', 'XX1', 'XX1')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">7.636513905647473</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(2, 'AH bias', 'XX1', 'XX1')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">10.517347873785557</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(2, 'AH bias', 'XX1', 'XX1')" target="(3, 2, 'YY', 'XX1')" id="0">
+      <data key="d1">[5, 11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 92, 93, 94, 95, 96, 103, 107, 108, 109, 127, 168, 170, 171, 172, 173, 174, 176, 181, 184, 188, 189, 190, 191, 192, 193, 205, 214, 240]</data>
+      <data key="d2">10.526434091421274</data>
+      <data key="d3">s</data>
+    </edge>
+    <edge source="(0, 8, 'YY', 'XX1')" target="(3, 0, 'YY', 'XX1')" id="0">
+      <data key="d1">[11, 12, 14, 71, 74, 75, 76, 77, 85, 91, 93, 95, 96, 108, 109, 127, 168, 171, 172, 173, 174, 176, 188, 189, 190, 191, 193, 205, 214, 240]</data>
+      <data key="d2">3.0689126528226414</data>
+      <data key="d3">d</data>
+    </edge>
+    <edge source="(8, 'MLP', 'end', 'end')" target="('True YY - False YY', 'end')" id="0">
+      <data key="d1">[5, 71, 74, 75, 77, 91, 92, 93, 94, 95, 96, 107, 168, 170, 171, 172, 174, 176, 184, 188, 189, 190, 191, 192, 193]</data>
+      <data key="d2">0.37362385522096586</data>
+      <data key="d3">d</data>
+    </edge>
+  </graph>
+</graphml>

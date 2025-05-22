@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="(0, 'Embedding', 'end', 'end')"/>
+<node id="('Correct - Incorrect pronoum', 'end')"/>
+<node id="(21, 4, 'end', 'is')"/>
+<node id="(17, 'MLP', 'end', 'end')"/>
+<node id="(19, 'MLP', 'end', 'end')"/>
+<node id="(0, 'Embedding', 'is', 'is')"/>
+<node id="(15, 'MLP', 'is', 'is')"/>
+<node id="(18, 'MLP', 'is', 'is')"/>
+<node id="(22, 'MLP', 'end', 'end')"/>
+<edge source="(0, 'Embedding', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">2.181046485900879</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(21, 4, 'end', 'is')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">2.118229389190674</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(17, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">6.453770637512207</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(19, 'MLP', 'end', 'end')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">14.83200454711914</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'Embedding', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">12.07925033569336</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(15, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">5.720718860626221</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(18, 'MLP', 'is', 'is')" target="(21, 4, 'end', 'is')" id="0">
+  <data key="d0">4.706636428833008</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(22, 'MLP', 'end', 'end')" target="('Correct - Incorrect pronoum', 'end')" id="0">
+  <data key="d0">1.9471553564071655</data>
+  <data key="d1">d</data>
+</edge>
+</graph></graphml>

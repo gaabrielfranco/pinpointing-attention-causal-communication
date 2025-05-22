@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d1" for="edge" attr.name="type" attr.type="string"/>
+<key id="d0" for="edge" attr.name="weight" attr.type="double"/>
+<graph edgedefault="directed"><node id="(0, 'Embedding', 't', 't')"/>
+<node id="('Correct - Incorrect pronoum', 't')"/>
+<node id="(18, 'MLP', 't', 't')"/>
+<node id="(20, 5, 't', ' John')"/>
+<node id="(16, 'MLP', 't', 't')"/>
+<node id="(17, 'MLP', 't', 't')"/>
+<node id="(19, 'MLP', 't', 't')"/>
+<node id="(0, 'Embedding', ' John', ' John')"/>
+<node id="(13, 'MLP', ' John', ' John')"/>
+<node id="(14, 'MLP', ' John', ' John')"/>
+<node id="(15, 'MLP', ' John', ' John')"/>
+<node id="(16, 'MLP', ' John', ' John')"/>
+<node id="(17, 'MLP', ' John', ' John')"/>
+<node id="(18, 'MLP', ' John', ' John')"/>
+<node id="(19, 'MLP', ' John', ' John')"/>
+<node id="(21, 4, 't', ' is')"/>
+<node id="(0, 'Embedding', ' is', ' is')"/>
+<node id="(15, 'MLP', ' is', ' is')"/>
+<node id="(18, 'MLP', ' is', ' is')"/>
+<node id="(21, 4, 't', ' really')"/>
+<node id="(0, 'Embedding', ' really', ' really')"/>
+<node id="(16, 'MLP', ' really', ' really')"/>
+<node id="(20, 'MLP', ' really', ' really')"/>
+<node id="(22, 'MLP', 't', 't')"/>
+<node id="(23, 'MLP', 't', 't')"/>
+<node id="(24, 'MLP', 't', 't')"/>
+<edge source="(0, 'Embedding', 't', 't')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">3.990985870361328</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(18, 'MLP', 't', 't')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">2.4394872188568115</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(18, 'MLP', 't', 't')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">7.267814636230469</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(18, 'MLP', 't', 't')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">4.025337219238281</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(18, 'MLP', 't', 't')" target="(21, 4, 't', ' really')" id="0">
+  <data key="d0">3.549417495727539</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(20, 5, 't', ' John')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">1.1355395317077637</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(16, 'MLP', 't', 't')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.393003463745117</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(17, 'MLP', 't', 't')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">3.8457279205322266</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(17, 'MLP', 't', 't')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">5.291134357452393</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(19, 'MLP', 't', 't')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">5.631745338439941</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(19, 'MLP', 't', 't')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">14.050707817077637</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(19, 'MLP', 't', 't')" target="(21, 4, 't', ' really')" id="0">
+  <data key="d0">10.71554946899414</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'Embedding', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.0901713371276855</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(13, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.4574103355407715</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(14, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.0994715690612793</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(15, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">1.663404941558838</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(16, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.9666271209716797</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(17, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.191105842590332</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(18, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.2547123432159424</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(19, 'MLP', ' John', ' John')" target="(20, 5, 't', ' John')" id="0">
+  <data key="d0">2.936781167984009</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(21, 4, 't', ' is')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">3.56144380569458</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'Embedding', ' is', ' is')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">12.826489448547363</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(15, 'MLP', ' is', ' is')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">6.270990371704102</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(18, 'MLP', ' is', ' is')" target="(21, 4, 't', ' is')" id="0">
+  <data key="d0">5.686864852905273</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(21, 4, 't', ' really')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">1.0165413618087769</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(0, 'Embedding', ' really', ' really')" target="(21, 4, 't', ' really')" id="0">
+  <data key="d0">7.379753112792969</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(16, 'MLP', ' really', ' really')" target="(21, 4, 't', ' really')" id="0">
+  <data key="d0">6.042933464050293</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(20, 'MLP', ' really', ' really')" target="(21, 4, 't', ' really')" id="0">
+  <data key="d0">4.9300971031188965</data>
+  <data key="d1">s</data>
+</edge>
+<edge source="(22, 'MLP', 't', 't')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">4.086801052093506</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(23, 'MLP', 't', 't')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">1.2218292951583862</data>
+  <data key="d1">d</data>
+</edge>
+<edge source="(24, 'MLP', 't', 't')" target="('Correct - Incorrect pronoum', 't')" id="0">
+  <data key="d0">1.9696321487426758</data>
+  <data key="d1">d</data>
+</edge>
+</graph></graphml>
