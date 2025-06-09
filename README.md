@@ -57,9 +57,13 @@ Both are needed for the paper's results.
 
 More details about `tracing.py` are in the "Extra Documentation" section.
 
-## Step 3: Build Circuits
+## Step 3: Sparse Attention Decomposition
 
-### Step 3.1: Unify Graphs
+The Jupyter notebook `sparse_attention_decomposition_plots.ipynb` uses the tracing results to plot the sparse attention decomposition phenomena. These plots are saved in `figures/sparse_attn_decomp`.
+
+## Step 4: Build Circuits
+
+### Step 4.1: Unify Graphs
 
 This combines individual trace graphs.
 ```sh
@@ -67,7 +71,7 @@ This combines individual trace graphs.
 ```
 This command creates the `combined_graphs` folder.
 
-### Step 3.2: Construct Intervention Graphs
+### Step 4.2: Construct Intervention Graphs
 
 This step identifies causal edges in the combined graph.
 ```sh
@@ -77,7 +81,7 @@ This script runs two main processes:
 1.  **`interventions.py`**: Runs interventions in the model to measure the causal effect of each edge in the combined graph on downstream performance.
 2.  **`interventions_graph_pruning.py`**: Removes edges from the graph based on their measured causal effect.
 
-### Step 3.3: Compute Circuits
+### Step 4.3: Compute Circuits
 
 Circuits are computed based on a threshold for the causal effect of each edge. We used a threshold of 0.2 for all experiments.
 ```sh
@@ -85,7 +89,7 @@ Circuits are computed based on a threshold for the causal effect of each edge. W
 ```
 This creates the `circuit_comparison` folder with the results. It also runs `circuit_comparison_barplot.py` to plot a comparison of metrics and saves it in the `figures/circuit_comparison` folder.
 
-## Step 4: Run Intervention Experiments
+## Step 5: Run Intervention Experiments
 
 This step runs various intervention experiments.
 ```sh
@@ -94,12 +98,12 @@ This step runs various intervention experiments.
 This creates the `intervention_data` folder with the results. It also runs `interventions_plots.py` to generate all intervention figures and saves them in the `figures/interventions` folder.
 
 
-## Step 5: Analyze Control Signals
+## Step 6: Analyze Control Signals
 
 The Jupyter notebook `control_signals.ipynb` performs the control signals analysis and generates the corresponding plots. These plots are saved in `figures/control_signals`.
 
 
-## Step 6: Export Graphs for Visualization
+## Step 7: Export Graphs for Visualization
 
 The example graphs used in the paper are in the `traced_graphs_with_tokens` folder. To trace with tokens, use the `-tt` option when running `tracing.py`. See the "Extra Documentation" section for more details on `tracing.py`.
 
