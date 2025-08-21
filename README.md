@@ -1,6 +1,6 @@
-# Signals in the Stream
+# Pinpointing Attention-Causal Communication in Language Models
 
-This repository contains the code to reproduce the findings of the paper "Signals in the Stream: Pinpointing Attention-Causal Communication in Language Models."
+This repository contains the code to reproduce the findings of the paper "Pinpointing Attention-Causal Communication in Language Models."
 
 # Dependencies
 
