@@ -144,8 +144,6 @@ fig, ax = plt.subplots(len(TASKS), len(MODELS), sharex=False, sharey=True, figsi
 fig.delaxes(ax[2, 2])
 for i, task in enumerate(TASKS):
     for j, model in enumerate(MODELS): 
-        # if model == "gemma-2-2b" and task == "gp":
-        #     continue       
         data = logit_diff_ablations[
             (logit_diff_ablations.is_ablated) & 
             (logit_diff_ablations.intervention_type == "local") &
@@ -160,7 +158,6 @@ for i, task in enumerate(TASKS):
             hue="operation_performed", 
             hue_order=['Removing (Random)', 'Boosting (Random)', 'Removing (SVs)', 'Boosting (SVs)'], 
             legend=True if i == 2 and j == 1 else False,
-            #legend=False,
             errorbar="sd",
             ax=ax[i, j],
             err_kws={"linewidth": 1},
@@ -168,22 +165,18 @@ for i, task in enumerate(TASKS):
 
         ax[i, j].set_xlabel(None)
         if j == 0:
-            ax[i, j].set_ylabel(r"$A_{ds}^{\text{interv}} - A_{ds}$")
+            ax[i, j].set_ylabel(f"{task.upper()}\n" + r"$A_{ds}^{\text{interv}} - A_{ds}$")
 
-        if i != 2:
-            ax[i, j].set_xticklabels([])
-        else:
-            ax[i, j].set_xticks(ax[i, j].get_xticks())
-            ax[i, j].set_xticklabels(ax[i, j].get_xticklabels(), rotation=45)
+        ax[i, j].set_xticklabels([])
+        if i == 2:
+            ax[i, j].set_xlabel("Edges")
 
         if i == 0:
             ax[i, j].set_title(model)
 
-
         if i == 2 and j == 1:
             plt.legend(loc="center", bbox_to_anchor=(1.75, 0.5), fontsize=6)
 
-#plt.tight_layout()
 plt.savefig(f'figures/interventions/interventions_attn_weight_effect.pdf', bbox_inches='tight', dpi=800);
 plt.close();
 
